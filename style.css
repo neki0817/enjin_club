@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  background: #f7fcff;
+  color: #222;
+}
+header {
+  background: linear-gradient(90deg, #b2f7ef 0%, #f7ffb2 100%);
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 32px;
+}
+.logo img {
+  border-radius: 8px;
+  background: #fff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0 32px 0 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #43e97b;
+}
+.hero {
+  text-align: center;
+  margin: 48px 0 32px 0;
+}
+.hero img {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(66, 220, 255, 0.08);
+}
+.hero h1 {
+  color: #1e90ff;
+  margin-top: 24px;
+  font-size: 2.4em;
+}
+.hero p {
+  color: #43e97b;
+  font-size: 1.2em;
+  margin-top: 12px;
+}
+footer {
+  background: #e0f7fa;
+  text-align: center;
+  padding: 16px 0;
+  color: #888;
+  font-size: 0.95em;
+  margin-top: 48px;
+} 
